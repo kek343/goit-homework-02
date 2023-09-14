@@ -33,10 +33,11 @@ header {
 }
 
 .header-logo {
-  color: #2e2f42;
+  font-family: "Raleway", sans-serif;
+  color: #4d5ae5;
   font-size: 18px;
   font-weight: 700;
-  line-height: 1.16;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   text-decoration: none;
@@ -44,10 +45,11 @@ header {
 }
 
 .span-header-logo {
-  color: #4d5ae5;
+  font-family: "Raleway", sans-serif;
+  color: #2e2f42;
   font-size: 18px;
   font-weight: 700;
-  line-height: 1.16;
+  line-height: 1.17;
   letter-spacing: 0.03;
   text-transform: uppercase;
   text-decoration: none;
@@ -64,16 +66,18 @@ header {
   color: #2e2f42;
   text-decoration: none;
   margin-right: 20px;
+  font-weight: 500;
 }
 
-.header-link:hover,
-.header-link:active {
+.header-link:focus,
+.header-link:hover {
   color: #404bbf;
 }
 
 .header-address {
   display: flex;
   align-items: center;
+  font-style: normal;
 }
 
 .address-list {
@@ -90,7 +94,7 @@ header {
   text-decoration: none;
 }
 .address-link:hover,
-.address-link:active {
+.address-link:focus {
   color: #404bbf;
 }
 /* title */
@@ -128,9 +132,10 @@ header {
   width: 169px;
   height: 56px;
   text-align: center;
+  cursor: pointer;
 }
 .title-btn:hover,
-.title-btn:active {
+.title-btn:focus {
   border-radius: 4px;
   background-color: #404bbf;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
@@ -175,7 +180,7 @@ h2 {
   text-transform: capitalize;
 }
 .team-section {
-  background: #f4f4fd;
+  background-color: #f4f4fd;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -188,7 +193,14 @@ h2 {
     0px 1px 1px 0px rgba(46, 47, 66, 0.16),
     0px 1px 6px 0px rgba(46, 47, 66, 0.08);
 }
+.list-title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+}
 .team-list {
+  background-color: #ffffff;
   list-style: none;
   padding: 0;
   margin: 0;
@@ -267,10 +279,11 @@ h2 {
 }
 
 .footer-logo {
-  color: #f4f4fd;
+  font-family: "Raleway", sans-serif;
+  color: #4d5ae5;
   font-size: 18px;
   font-weight: 700;
-  line-height: 1.16;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   text-decoration: none;
@@ -278,10 +291,11 @@ h2 {
   margin-top: 100px;
 }
 .span-footer-logo {
-  color: #4d5ae5;
+  font-family: "Raleway", sans-serif;
+  color: #f4f4fd;
   font-size: 18px;
   font-weight: 700;
-  line-height: 1.16;
+  line-height: 1.17;
   letter-spacing: 0.03;
   text-transform: uppercase;
   text-decoration: none;
