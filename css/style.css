@@ -195,9 +195,9 @@ h2 {
 }
 .list-title {
   font-weight: 500;
-  font-size: 20px;
-  line-height: 1.2;
   letter-spacing: 0.02em;
+  font-size: 36px;
+  line-height: 1.11;
 }
 .team-list {
   background-color: #ffffff;
@@ -208,6 +208,7 @@ h2 {
   gap: 24px;
 }
 .team-item {
+  background-color: #ffffff;
   text-align: center;
 }
 .team-img {
@@ -216,7 +217,10 @@ h2 {
 }
 .team-name {
   color: #2e2f42;
-  font-weight: 700;
+  font-weight: 500;
+  font-size: 20px;
+  ine-height: 1.2;
+  letter-spacing: 0.02em;
   margin-top: 32px;
 }
 .team-text {
@@ -257,7 +261,11 @@ h2 {
 }
 
 .portfolio-name {
-  font-weight: 700;
+  color: #2e2f42;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
   margin-top: 16px;
   text-align: left;
 }
