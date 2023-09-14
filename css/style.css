@@ -127,7 +127,6 @@ header {
 }
 
 .team-section {
-  justify-content: center;
   background-color: #f4f4fd;
 }
 
@@ -168,17 +167,12 @@ header {
 }
 
 .portfolio-list {
-  justify-content: flex-start;
   list-style: none;
 }
 
 .portfolio-item {
   text-align: center;
   background-color: #fff;
-}
-
-.portfolio-img {
-  max-width: 100%;
 }
 
 .portfolio-name {
