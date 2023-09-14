@@ -4,14 +4,10 @@ body {
   color: #434455;
   background-color: #ffffff;
   font-size: 16px;
-  line-height: 1.5;
   font-weight: 400;
   letter-spacing: 0.02em;
 }
-.main {
-  width: 0 auto;
-  height: 0 auto;
-}
+
 a {
   text-decoration: none;
 }
@@ -19,6 +15,7 @@ a {
 ul {
   list-style: none;
 }
+
 header {
   display: flex;
   justify-content: space-between;
@@ -37,8 +34,6 @@ header {
   color: #4d5ae5;
   font-size: 18px;
   font-weight: 700;
-  line-height: 1.17;
-  letter-spacing: 0.03em;
   text-transform: uppercase;
   text-decoration: none;
   margin-right: 76px;
@@ -49,8 +44,6 @@ header {
   color: #2e2f42;
   font-size: 18px;
   font-weight: 700;
-  line-height: 1.17;
-  letter-spacing: 0.03;
   text-transform: uppercase;
   text-decoration: none;
 }
@@ -86,23 +79,24 @@ header {
   margin: 0;
   display: flex;
 }
+
 .address-item {
   margin-right: 40px;
 }
+
 .address-link {
   color: #434455;
   text-decoration: none;
 }
+
 .address-link:hover,
 .address-link:focus {
   color: #404bbf;
 }
+
 /* title */
 .title-sectoin {
   background-color: #2e2f42;
-  width: 100%;
-  height: 600px;
-  flex-shrink: 0;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -112,39 +106,35 @@ header {
 
 .title {
   color: #fff;
-  text-align: center;
   font-size: 56px;
   font-weight: 700;
-  line-height: 1.07;
   letter-spacing: 0.02em;
   margin-bottom: 48px;
 }
+
 /* Button */
 .title-btn {
   color: #fff;
   font-size: 16px;
   font-weight: 500;
-  line-height: 1.5;
   letter-spacing: 0.04em;
   border-radius: 4px;
   background-color: #4d5ae5;
-  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
   width: 169px;
   height: 56px;
   text-align: center;
   cursor: pointer;
 }
+
 .title-btn:hover,
 .title-btn:focus {
   border-radius: 4px;
   background-color: #404bbf;
-  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
 }
+
 /* achievements */
 .achievements-list {
   display: flex;
-  gap: 8px;
-  padding-left: 24px;
 }
 
 .achievement-item {
@@ -157,90 +147,83 @@ header {
   color: #2e2f42;
   font-size: 20px;
   font-weight: 500;
-  line-height: 1.2;
   letter-spacing: 0.02em;
   margin-left: 156px;
 }
+
 .achievements-text {
   color: #434455;
   font-size: 16px;
   font-weight: 400;
-  line-height: 1.5;
   letter-spacing: 0.02;
   padding-right: 24px;
   margin-left: 156px;
 }
+
 h2 {
   color: #2e2f42;
   text-align: center;
   font-size: 36px;
   font-weight: 700;
-  line-height: 1.11;
   letter-spacing: 0.02em;
   text-transform: capitalize;
 }
+
 .team-section {
-  background-color: #f4f4fd;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap: 32px;
-  padding: 0;
-  border-radius: 0 0 4px 4px;
-  background-color: #fff;
-  box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08),
-    0px 1px 1px 0px rgba(46, 47, 66, 0.16),
-    0px 1px 6px 0px rgba(46, 47, 66, 0.08);
 }
+
 .list-title {
   font-weight: 500;
   letter-spacing: 0.02em;
   font-size: 36px;
   line-height: 1.11;
 }
+
 .team-list {
   background-color: #ffffff;
   list-style: none;
   padding: 0;
   margin: 0;
   display: flex;
-  gap: 24px;
 }
+
 .team-item {
   background-color: #ffffff;
   text-align: center;
 }
+
 .team-img {
   max-width: 100%;
   height: auto;
 }
+
 .team-name {
   color: #2e2f42;
   font-weight: 500;
   font-size: 20px;
-  ine-height: 1.2;
   letter-spacing: 0.02em;
   margin-top: 32px;
 }
+
 .team-text {
   color: #434455;
 }
+
+/* portfolio */
 .portfolio-section {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 32px;
-  background-color: #fff;
-  width: 1440px;
-  margin: 0 auto;
-  padding: 0;
 }
+
 .portfolio-list {
   display: flex;
   flex-wrap: wrap;
   justify-content: flex-start;
-  gap: 32px;
   list-style: none;
   padding: 0;
   margin: 0;
@@ -252,9 +235,8 @@ h2 {
   margin-bottom: 32px;
   border: 1px solid #e7e9fc;
   background-color: #fff;
-  box-sizing: border-box;
-  align-items: center;
 }
+
 .portfolio-img {
   max-width: 100%;
   height: auto;
@@ -264,7 +246,6 @@ h2 {
   color: #2e2f42;
   font-weight: 500;
   font-size: 20px;
-  line-height: 1.2;
   letter-spacing: 0.02em;
   margin-top: 16px;
   text-align: left;
@@ -278,9 +259,6 @@ h2 {
 /* footer */
 .footer {
   background-color: #2e2f42;
-  width: 100%;
-  height: 312px;
-  flex-shrink: 0;
   display: flex;
   flex-direction: column;
   align-items: baseline;
@@ -291,19 +269,18 @@ h2 {
   color: #4d5ae5;
   font-size: 18px;
   font-weight: 700;
-  line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   text-decoration: none;
   margin-left: 156px;
   margin-top: 100px;
 }
+
 .span-footer-logo {
   font-family: "Raleway", sans-serif;
   color: #f4f4fd;
   font-size: 18px;
   font-weight: 700;
-  line-height: 1.17;
   letter-spacing: 0.03;
   text-transform: uppercase;
   text-decoration: none;
@@ -312,7 +289,6 @@ h2 {
 .footer-text {
   color: #f4f4fd;
   font-weight: 400;
-  line-height: 1.5;
   letter-spacing: 0.02em;
   width: 264px;
   margin-top: 17.5px;
