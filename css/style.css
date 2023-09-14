@@ -167,7 +167,9 @@ header {
   list-style: none;
   margin: 0;
 }
-
+.team-item {
+  background-color: #ffffff;
+}
 .team-name {
   color: #2e2f42;
   font-weight: 500;
