@@ -119,15 +119,6 @@ header {
 }
 
 /* achievements */
-.achievements-list {
-  display: flex;
-}
-
-.achievement-item {
-  display: flex;
-  flex-direction: column;
-}
-
 .achievements-title {
   color: #2e2f42;
   font-size: 20px;
@@ -224,7 +215,6 @@ header {
 /* footer */
 .footer {
   background-color: #2e2f42;
-  display: flex;
 }
 
 .footer-logo {
