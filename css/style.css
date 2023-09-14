@@ -1,5 +1,5 @@
 body {
-  font-family: "Raleway", sans-serif;
+  font-family: "Roboto", sans-serif;
   color: #434455;
   background-color: #ffffff;
   font-size: 16px;
@@ -29,9 +29,11 @@ header {
   margin-right: 76px;
   line-height: 1.17;
   letter-spacing: 0.03em;
+  font-size: 18px;
 }
 
 .span-header-logo {
+  font-size: 18px;
   font-family: "Raleway", sans-serif;
   color: #2e2f42;
   font-weight: 700;
@@ -100,6 +102,7 @@ header {
 
 /* Button */
 .title-btn {
+  font-family: "Roboto", sans-serif;
   color: #fff;
   font-size: 16px;
   font-weight: 500;
@@ -131,6 +134,7 @@ header {
   font-weight: 500;
   letter-spacing: 0.02em;
   margin-left: 156px;
+  line-height: 1.2;
 }
 
 .achievements-text {
@@ -142,25 +146,20 @@ header {
   line-height: 1.5;
 }
 
-h2 {
-  color: #2e2f42;
-  text-align: center;
-  font-size: 36px;
-  font-weight: 700;
-  letter-spacing: 0.02em;
-  text-transform: capitalize;
-}
-
 .team-section {
   justify-content: center;
   background-color: #f4f4fd;
 }
 
 .list-title {
-  font-weight: 500;
-  letter-spacing: 0.02em;
+  color: #2e2f42;
+  text-align: center;
   font-size: 36px;
-  line-height: 1.5;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  background-color: #ffffff;
+  line-height: 1.11;
 }
 
 .team-list {
@@ -175,7 +174,7 @@ h2 {
   font-size: 20px;
   letter-spacing: 0.02em;
   margin-top: 32px;
-  line-height: 1.5;
+  line-height: 1.2;
 }
 
 .team-text {
@@ -231,21 +230,25 @@ h2 {
 .footer-logo {
   font-family: "Raleway", sans-serif;
   color: #4d5ae5;
+  font-size: 18px;
   font-weight: 700;
   text-transform: uppercase;
   text-decoration: none;
   margin-left: 156px;
   margin-top: 100px;
   line-height: 1.17;
+  letter-spacing: 0.03em;
 }
 
 .span-footer-logo {
   font-family: "Raleway", sans-serif;
   color: #f4f4fd;
+  font-size: 18px;
   font-weight: 700;
   text-transform: uppercase;
   text-decoration: none;
   line-height: 1.17;
+  letter-spacing: 0.03em;
 }
 
 .footer-text {
